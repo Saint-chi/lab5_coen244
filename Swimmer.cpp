@@ -3,3 +3,8 @@
 //
 
 #include "Swimmer.h"
+#include "Animal.h"
+
+void Swimmer::speak() {
+    Animal::speak();
+}

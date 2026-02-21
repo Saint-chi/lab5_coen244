@@ -8,6 +8,9 @@
 
 
 class Swimmer :virtual public Animal {
+public:
+    virtual void speak()override;
+
 
 
 };

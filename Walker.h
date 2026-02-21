@@ -10,7 +10,8 @@
 class Walker : virtual public Animal{
 
 public:
-    Walker();
+
+    virtual void speak()override;
 
 };
 

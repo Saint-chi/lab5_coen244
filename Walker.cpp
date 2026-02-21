@@ -7,4 +7,6 @@
 using namespace std;
 
 
-Walker::Walker(){}
+void Walker::speak() {
+    Animal::speak();
+}
