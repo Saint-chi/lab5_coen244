@@ -6,5 +6,5 @@
 #include "Animal.h"
 
 void Swimmer::speak() {
-    Animal::speak();
+    std::cout<<"Swimmer makes animal noises"<<"\n";
 }

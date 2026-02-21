@@ -4,9 +4,7 @@
 
 #include "Walker.h"
 #include <iostream>
-using namespace std;
-
 
 void Walker::speak() {
-    Animal::speak();
+    std::cout<<"Walker speaks"<<"\n";
 }

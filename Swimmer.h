@@ -7,7 +7,7 @@
 #include "Animal.h"
 
 
-class Swimmer :virtual public Animal {
+class Swimmer : virtual public Animal {
 public:
     virtual void speak()override;
 

@@ -11,6 +11,7 @@
 class Amphibian : public Walker, public Swimmer{
 public:
     int age;
+    virtual void speak()override;
 
 };
 
